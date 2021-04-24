@@ -11,6 +11,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.android.material.snackbar.Snackbar;
+
 import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
@@ -58,6 +60,10 @@ public class MainActivity extends AppCompatActivity {
         toast.setDuration(Toast.LENGTH_LONG);
         toast.setView(layout);
         toast.show();
+    }
+
+    public void onButton3Clicked(View v) {
+        Snackbar.make(v, "스낵바입니다.", Snackbar.LENGTH_LONG).show();
     }
 }
 

@@ -39,15 +39,21 @@
             android:textSize="20sp"
             android:onClick="onButton1Clicked"
             />
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="모양 바꿔 띄우기"
-            android:textSize="15sp"
-            android:onClick="onButton2Clicked"
-            />
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButton2Clicked"
+        android:text="모양 바꿔 띄우기"
+        android:textSize="15sp" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onButton3Clicked"
+        android:text="스낵바 띄우기"
+        android:textSize="15sp" />
 </LinearLayout>
