@@ -27,7 +27,7 @@ public class MenuActivity extends AppCompatActivity {
                 LayoutInflater inflater = (LayoutInflater)
                         getSystemService(Context.LAYOUT_INFLATER_SERVICE);
                 inflater.inflate(R.layout.sub1, container, true);
-                CheckBox checkBox = container.findViewById(R.id.checkBox);
+                CheckBox checkBox = findViewById(R.id.checkBox);
                 checkBox.setText("로딩되었어요.");
             }
         });
