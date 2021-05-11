@@ -43,10 +43,5 @@ public class MenuActivity extends AppCompatActivity {
                 startActivityForResult(intent, REQUEST_CODE_MAIN_MENU);
             }
         });
-        Intent intent = getIntent();
-        processintent(intent);
-    }
-    private processintent(intent) {
-
     }
 }
