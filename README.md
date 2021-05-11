@@ -17,3 +17,11 @@
 9. Problem06 (Do it Android Problem)
 10. SampleLayoutInflater
 11. SampleIntent
+12. SampleClallIntent
+13. SampleParcelable
+14. SampleLifeCycle
+15. SampleTask
+16. Problem07
+17. Problem08
+18. Fragment
+19. SampleFragment
