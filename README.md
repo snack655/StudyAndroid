@@ -5,23 +5,3 @@
 만드는 코드를 따라 쓰며 배웁니다.
 
 *참고로 책은 Do it! 안드로이드 앱 프로그래밍을 읽습니다.
-
-1. SampleDrawable
-2. SampleEvent
-3. SampleOrientation
-4. SampleOrientation2
-5. SampleToast
-6. SampleProgress
-7. Problem03
-8. SampleDialog
-9. Problem06 (Do it Android Problem)
-10. SampleLayoutInflater
-11. SampleIntent
-12. SampleClallIntent
-13. SampleParcelable
-14. SampleLifeCycle
-15. SampleTask
-16. Problem07
-17. Problem08
-18. Fragment
-19. SampleFragment
