@@ -13,37 +13,11 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    int number = 0;
-    TextView tvCount;
-
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        //버튼으로 수량을 늘리는 리스너
-
-        tvCount = (TextView)findViewById(R.id.num);
-        tvCount.setText(String.valueOf(number));
-        ImageButton btnPlus = (ImageButton)findViewById(R.id.image_plus);
-        ImageButton btnMinus = (ImageButton)findViewById(R.id.image_minus);
-
-        btnPlus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                number++;
-                tvCount.setText(String.valueOf(number));
-            }
-        });
-
-        btnMinus.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                number--;
-                tvCount.setText(String.valueOf(number));
-            }
-        });
 
 
         // 리싸이클러 뷰 기본 설정

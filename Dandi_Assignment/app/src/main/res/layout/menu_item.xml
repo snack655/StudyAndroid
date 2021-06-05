@@ -55,7 +55,7 @@
                         android:layout_gravity="center" />
 
                     <TextView
-                        android:id="@+id/num"
+                        android:id="@+id/tvCount"
                         android:layout_width="40dp"
                         android:layout_height="40dp"
                         android:layout_margin="30dp"
