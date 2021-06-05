@@ -1,0 +1,2 @@
+rootProject.name = "Dandi_Assignment"
+include ':app'

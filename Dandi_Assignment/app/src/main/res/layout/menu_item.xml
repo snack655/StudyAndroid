@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:cardBackgroundColor="#FFFF8C"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000000"
+                    android:text="이름"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="가격"
+                    android:textColor="#969696"
+                    android:textSize="20sp" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="90dp"
+                    android:orientation="horizontal" >
+
+                    <ImageButton
+                        android:id="@+id/image_plus"
+                        android:src="@drawable/add"
+                        android:padding="0dp"
+                        android:scaleType="fitCenter"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center" />
+
+                    <TextView
+                        android:id="@+id/num"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_margin="30dp"
+                        android:layout_gravity="center"
+                        android:background="#FFFFFF"
+                        android:textColor="#000000"
+                        android:text="0"
+                        android:textSize="30sp"
+                        android:gravity="center" />
+
+                    <ImageButton
+                        android:id="@+id/image_minus"
+                        android:src="@drawable/minus"
+                        android:padding="0dp"
+                        android:scaleType="fitCenter"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_gravity="center"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:padding="5dp"
+                />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
