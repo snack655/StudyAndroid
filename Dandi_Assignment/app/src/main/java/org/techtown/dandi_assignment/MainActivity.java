@@ -2,9 +2,11 @@ package org.techtown.dandi_assignment;
 
 import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.AppCompatButton;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
@@ -12,6 +14,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+    AppCompatButton goBasket;
 
     @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
@@ -35,6 +38,15 @@ public class MainActivity extends AppCompatActivity {
         adapter.addItem(new Menu("치즈볼", "2000", getDrawable(R.drawable.cheeze_ball)));
 
         recyclerView.setAdapter(adapter);
+
+        goBasket = findViewById(R.id.Go_basket);
+        goBasket.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, BasketActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

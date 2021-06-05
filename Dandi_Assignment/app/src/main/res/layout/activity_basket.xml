@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud_chicken"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BASKET"
+        android:textSize="40sp"
+        android:background="#8073EAA8"
+        android:gravity="center"
+        android:textColor="#BA55D3"
+        android:fontFamily="@font/purple_purse" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/go_Back"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#99C964E2"
+        android:text="BACK"
+        android:textSize="20sp" />
+
+</LinearLayout>
