@@ -72,6 +72,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
         TextView tvCount;
         AppCompatButton goBasket;
         int number;
+        int menu_total;
 
         public ViewHolder(View itemView) {
             super(itemView);
@@ -83,6 +84,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
             btnMinus = itemView.findViewById(R.id.image_minus);
             tvCount = itemView.findViewById(R.id.tvCount);
             goBasket = itemView.findViewById(R.id.Go_basket);
+            menu_total = 0;
             number = 0;
         }
 
