@@ -1,6 +1,7 @@
 package org.techtown.dandi_assignment;
 
 import android.app.AppComponentFactory;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 import android.view.LayoutInflater;
@@ -21,6 +22,7 @@ import java.util.ArrayList;
 
 public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
     ArrayList<Menu> items = new ArrayList<Menu>();
+
     @NonNull
     @Override
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int viewType) {
@@ -53,6 +55,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
                 }
             }
         });
+
     }
 
     @Override
@@ -67,6 +70,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
         ImageButton btnAdd;
         ImageButton btnMinus;
         TextView tvCount;
+        AppCompatButton goBasket;
         int number;
 
         public ViewHolder(View itemView) {
@@ -78,6 +82,7 @@ public class MenuAdapter extends RecyclerView.Adapter<MenuAdapter.ViewHolder> {
             btnAdd = itemView.findViewById(R.id.image_plus);
             btnMinus = itemView.findViewById(R.id.image_minus);
             tvCount = itemView.findViewById(R.id.tvCount);
+            goBasket = itemView.findViewById(R.id.Go_basket);
             number = 0;
         }
 
