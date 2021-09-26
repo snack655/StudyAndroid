@@ -104,7 +104,7 @@ public class CustomViewDrawable extends View {
         path.offset(30, 120);
         canvas.drawPath(path, pathPaint);
 
-        path.offset(30, 120); 
+        path.offset(30, 120);
         canvas.drawPath(path, pathPaint);
 
         pathPaint.setColor(Color.CYAN);
