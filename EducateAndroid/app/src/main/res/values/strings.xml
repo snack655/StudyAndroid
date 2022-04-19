@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">EducateAndroid</string>
+    
+    <string name="BASE_URL">https://open.neis.go.kr/hub/</string>
+    <string name="open_api_name">mealServiceDietInfo</string>
+    <string name="KEY">b638ab83bb3044cb9ea921509efbc231</string>
+    <string name="Type">json</string>
+    <string name="pIndex">1</string>
+    <string name="pSize">1000</string>
+
+    <string name="ATPT_OFCDC_SC_CODE">D10</string>
+    <string name="SD_SCHUL_CODE">7240454</string>
+    <string name="MLSV_YMD">202204</string>
+</resources>
